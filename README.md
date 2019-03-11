@@ -35,7 +35,7 @@
 第二步：        
 在Activity中
 
-	final TextView tvProgrss = findViewById(R.id.tvProgress);
+	final TextProgressView tpv = findViewById(R.id.tpv);
     //初始化
     tpv.setCurrentSize(7);
     tpv.setMaxSize(90);
