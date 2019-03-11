@@ -174,6 +174,12 @@ public class TextProgressView extends View {
         invalidate();
     }
 
+    /**
+     * 初始化
+     * @param circlePositionSize
+     * @param aboveTextArr
+     * @param underTextArr
+     */
     public void init(@Nullable float[] circlePositionSize, @Nullable String[] aboveTextArr, @Nullable String[] underTextArr) {
         this.circlePositionSize = circlePositionSize;
         this.aboveTextArr = aboveTextArr;
