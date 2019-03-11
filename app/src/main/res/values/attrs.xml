@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextProgressView">
+
+        <attr name="tpvColorBg" format="color"/>
+        <attr name="tpvColorProgress" format="color"/>
+        <attr name="tpvColorBgText" format="color"/>
+        <attr name="tpvColorProgressText" format="color"/>
+        <attr name="tpvContentMargin" format="dimension"/>
+        <attr name="tpvBgStrokeWidth" format="dimension"/>
+        <attr name="tpvBigRadius" format="dimension"/>
+        <attr name="tpvSmallRadius" format="dimension"/>
+        <attr name="tpvCurrentSize" format="integer"/>
+        <attr name="tpvMaxSize" format="integer"/>
+        <attr name="tpvTextSize" format="dimension"/>
+        <attr name="tpvDuration" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

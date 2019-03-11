@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.lyz.textprogressdemo.TextProgressView
+        android:id="@+id/tpv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:tpvBgStrokeWidth="10dp"
+        app:tpvBigRadius="7dp"
+        app:tpvSmallRadius="5dp"
+        app:tpvColorBg="#bd9cff"
+        app:tpvColorBgText="#aaa"
+        app:tpvColorProgress="#541bc5"
+        app:tpvColorProgressText="#000"
+        app:tpvContentMargin="20dp"
+        app:tpvDuration="1000"
+        app:tpvTextSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="anim"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+</LinearLayout>
