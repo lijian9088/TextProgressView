@@ -2,8 +2,9 @@
 横向的带文字的progressview
 
 效果：
-![](screenshot/Screenshot_1.png)
-![](screenshot/Screenshot_2.gif)
+
+<img src="screenshot/Screenshot_1.png" width="50%" height="50%">
+<img src="screenshot/Screenshot_2.gif" width="50%" height="50%">
 
 第一步：
 
