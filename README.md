@@ -1,6 +1,8 @@
 # TextProgressView
 横向的带文字的progressview
 
+####使用：直接复制TextProgressView.java到项目中
+
 效果：
 
 <img src="screenshot/Screenshot_1.png" width="50%" height="50%">
