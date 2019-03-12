@@ -1,7 +1,7 @@
 # TextProgressView
 横向的带文字的progressview
 
-####使用：直接复制TextProgressView.java到项目中
+#### 使用：直接复制TextProgressView.java到项目中
 
 效果：
 
