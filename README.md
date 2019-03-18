@@ -5,8 +5,7 @@
 
 效果：
 
-<img src="screenshot/Screenshot_1.png" width="50%" height="50%">
-<img src="screenshot/Screenshot_2.gif" width="50%" height="50%">
+<img src="screenshot/screenshot_1.gif" width="50%" height="50%">
 
 第一步：
 
@@ -16,6 +15,11 @@
         android:id="@+id/tpv"
         android:layout_width="match_parent"
         android:layout_height="100dp" />
+        
+    <com.lyz.textprogressdemo.OvalProgressView
+        android:id="@+id/opv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
         
 或者自定义属性
 
@@ -44,4 +48,6 @@
     tpv.init(new float[]{7, 14, 30, 60, 90},
              new String[]{"7天", "14天", "30天", "60天", "90天"},
              new String[]{"$50", "$100", "$200", "$300", "$500"});
-             
+                    
+    opv.setProgress(7);
+    opv.setMax(100);
