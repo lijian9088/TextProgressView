@@ -5,7 +5,7 @@
 
 效果：
 
-<img src="screenshot/screenshot_1.gif" width="50%" height="50%">
+<img src="screenshot/Screenshot_1.gif" width="50%" height="50%">
 
 第一步：
 
