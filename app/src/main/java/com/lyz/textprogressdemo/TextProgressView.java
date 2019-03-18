@@ -212,7 +212,7 @@ public class TextProgressView extends View {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 
-    public void animSize(float endSize) {
+    public void anim(float endSize) {
         if (animator != null) {
             if (animator.isRunning()) {
                 animator.cancel();

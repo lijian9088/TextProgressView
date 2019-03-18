@@ -13,14 +13,19 @@
         android:layout_height="100dp"
         app:tpvBgStrokeWidth="10dp"
         app:tpvBigRadius="7dp"
-        app:tpvSmallRadius="5dp"
         app:tpvColorBg="#bd9cff"
         app:tpvColorBgText="#aaa"
         app:tpvColorProgress="#541bc5"
         app:tpvColorProgressText="#000"
         app:tpvContentMargin="20dp"
         app:tpvDuration="1000"
+        app:tpvSmallRadius="5dp"
         app:tpvTextSize="12sp" />
+
+    <com.lyz.textprogressdemo.OvalProgressView
+        android:id="@+id/opv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tv"

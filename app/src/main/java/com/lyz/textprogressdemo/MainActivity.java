@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final TextProgressView tpv = findViewById(R.id.tpv);
+        final OvalProgressView opv = findViewById(R.id.opv);
         final TextView tvProgrss = findViewById(R.id.tvProgress);
         //初始化
         tpv.setCurrentSize(7);
@@ -24,8 +25,12 @@ public class MainActivity extends AppCompatActivity {
                 new String[]{"7天", "14天", "30天", "60天", "90天"},
                 new String[]{"$50", "$100", "$200", "$300", "$500"});
 
+
+        opv.setProgress(7);
+        opv.setMax(100);
+
         final SeekBar sb = findViewById(R.id.seekBar);
-        sb.setMax(90);
+        sb.setMax(100);
         sb.setProgress(7);
         tvProgrss.setText(String.valueOf(7));
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -33,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 tpv.setCurrentSize(progress);
                 tvProgrss.setText(String.valueOf(progress));
+                opv.setProgress(progress);
             }
 
             @Override
@@ -51,7 +57,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int progress = sb.getProgress();
                 System.out.println("progress:" + progress);
-                tpv.animSize(progress);
+                tpv.anim(progress);
+                opv.anim(progress);
             }
         });
 
